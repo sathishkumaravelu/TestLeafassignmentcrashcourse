@@ -2,6 +2,13 @@ package week1.day1;
 
 public class Mobile {
 
+        boolean status = true;
+
+	int ageofmobile =2;
+	
+	String MobileModel="OnePlus";
+
+
 	public static void main(String[] args) {
 		System.out.println("I am ready :LGS");
 	
@@ -17,10 +24,6 @@ public class Mobile {
 		
 	}
 	
-	boolean status = true;
-
-	int ageofmobile =2;
 	
-	String MobileModel="OnePlus";
 	
 }
