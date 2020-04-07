@@ -1,8 +1,6 @@
 package week2.day2;
 
 import java.util.List;
-
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -42,7 +40,8 @@ public class Week2Day2WebElementsPractices {
 		/* 3. to print the text near to the go to home page */
 
 		// using sibling downwards xpath it is accessed
-		String textOfLable = driver.findElementByXPath("(//a[text()='Go to Home Page'])[last()]/following-sibling::label").getText();
+		String textOfLable = driver
+				.findElementByXPath("(//a[text()='Go to Home Page'])[last()]/following-sibling::label").getText();
 		System.out.println(textOfLable);
 
 		System.out.println("class practice for the day done");
